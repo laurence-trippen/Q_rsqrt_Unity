@@ -3,7 +3,7 @@ Quake III Arena: Fast Inverse Square Root in Unity
 
 ## The good or bad idea. IDK.
 
-Since I have always been interested in the Quake III engine (id Tech 3) through Star Wars Jedi Knight II: Jedi Outcast and am a fan of the Fast Inverse Square Root algorithm I thought it would be interesting to make the algorithm available in the UnityEngine.
+Since I have always been interested in the Quake III engine ([id Tech 3](https://en.wikipedia.org/wiki/Id_Tech_3)) through [Star Wars Jedi Knight II: Jedi Outcast](https://en.wikipedia.org/wiki/Star_Wars_Jedi_Knight_II:_Jedi_Outcast) and am a fan of the [Fast Inverse Square Root Algorithm](https://en.wikipedia.org/wiki/Fast_inverse_square_root) I thought it would be interesting to make the algorithm available in the **UnityEngine**.
 Apart from whether it makes sense or not, I just wanted to try it out. And so I started the experiment.
 
 ## Installation
@@ -24,7 +24,7 @@ Coming soon.
 
 ## Usage
 
-1. Import the Q3 namespace.
+1. Import the **Q3** namespace.
 2. Just call the static method ```float result = Qmath.Q_rsqrt(float number);```
 
 ```csharp
@@ -42,3 +42,7 @@ public class Tester : MonoBehaviour
     }
 }
 ```
+
+## Performance / Profiling
+
+Coming soon.
