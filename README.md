@@ -25,7 +25,7 @@ Coming soon.
 ## Usage
 
 1. Import the **Q3** namespace.
-2. Just call the static method ```csharp float result = Qmath.Q_rsqrt(float number);```
+2. Just call the static method ```float result = Qmath.Q_rsqrt(float number);```
 
 ```csharp
 using UnityEngine;
