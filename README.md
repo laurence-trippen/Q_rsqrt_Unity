@@ -10,8 +10,8 @@ Apart from whether it makes sense or not, I just wanted to try it out. And so I 
 
 ### Windows
 
-1. Download the current release for Windows or compile it yourself if you want to.
-2. Just put the **Q_rsqrt_Unity_DLL_x86.dll** or **Q_rsqrt_Unity_DLL_x64.dll** in your **Assets/Plugins** folder in Unity.
+1. Download the [current release](https://github.com/laurence-trippen/Q_rsqrt_Unity/releases/) for Windows or compile it yourself if you want to.
+2. Just put the ```Q_rsqrt_Unity_DLL_x86.dll``` or ```Q_rsqrt_Unity_DLL_x64.dll``` in your ```Assets/Plugins``` folder in your Unity Project.
 3. Native plugins are typically bounded to a specific OS or platform. You can use the Unity Inspector to make sure each DLL is included in the right build.
 
 ### Linux
@@ -25,7 +25,7 @@ Coming soon.
 ## Usage
 
 1. Import the **Q3** namespace.
-2. Just call the static method ```float result = Qmath.Q_rsqrt(float number);```
+2. Just call the static method ```csharp float result = Qmath.Q_rsqrt(float number);```
 
 ```csharp
 using UnityEngine;
